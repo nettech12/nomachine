@@ -2,7 +2,7 @@
 DEBIAN_FRONTEND=noninteractive
 NOMACHINE_PACKAGE_NAME=nomachine_7.1.3_1_amd64.deb
 NOMACHINE_BUILD=7.1
-ENV NOMACHINE_MD5=d833ad52f92e5b3cc30c96f12686d97f
+NOMACHINE_MD5=d833ad52f92e5b3cc30c96f12686d97f
 sudo apt update -y
 sudo apt install mate -y
 sudo apt-get install -y wget curl
