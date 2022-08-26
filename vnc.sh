@@ -10,15 +10,7 @@ sudo apt-get install -y wget curl
 wget https://download.nomachine.com/download/7.10/Linux/nomachine_7.10.1_1_amd64.deb
 sudo apt install -f ./nomachine_7.10.1_1_amd64.deb
 
-wget -nc https://raw.githubusercontent.com/nettech12/nomachine/main/ngrok.sh
+
 sudo apt-get update && sudo apt-get install -y vim xterm pulseaudio cups
 
-sudo groupadd -r nomachine -g 433 \
-&& useradd -u 431 -r -g nomachine -d /home/nomachine -s /bin/bash -c "NoMachine" nomachine \
-&& adduser nomachine sudo \
-&& mkdir /home/nomachine \
-&& chown -R nomachine:nomachine /home/nomachine \
-&& echo 'nomachine:nomachine' | chpasswd 
-/etc/NX/nxserver --startup
-tail -f /usr/NX/var/log/nxserver.log
-bash ngrok.sh
+wget -nc https://raw.githubusercontent.com/nettech12/nomachine/main/ngrok.sh && bash ngrok.sh
