@@ -11,7 +11,7 @@ wget https://download.nomachine.com/download/7.10/Linux/nomachine_7.10.1_1_amd64
 sudo apt install -f ./nomachine_7.10.1_1_amd64.deb
 
 wget -nc https://raw.githubusercontent.com/nettech12/nomachine/main/ngrok.sh
-sudo apt-get update && apt-get install -y vim xterm pulseaudio cups
+sudo apt-get update && sudo apt-get install -y vim xterm pulseaudio cups
 
 sudo groupadd -r nomachine -g 433 \
 && useradd -u 431 -r -g nomachine -d /home/nomachine -s /bin/bash -c "NoMachine" nomachine \
