@@ -3,7 +3,7 @@ DEBIAN_FRONTEND=noninteractive
 NOMACHINE_PACKAGE_NAME=nomachine_5.2.11_1_amd64.deb
 NOMACHINE_MD5=d697e5a565507d522380c94d2f295d07
 apt-get update && apt-get install -y vim xterm pulseaudio cups curl
-sudo apt-get -y update && sudo apt-get -y dist-upgrade && sudo apt-get clean
+sudo apt-get -y update && sudo apt-get -y && sudo apt-get clean
 curl -fSL "http://download.nomachine.com/download/5.2/Linux/${NOMACHINE_PACKAGE_NAME}" -o nomachine.deb \
 && echo "${NOMACHINE_MD5} *nomachine.deb" | md5sum -c - \
 && dpkg -i nomachine.deb \
