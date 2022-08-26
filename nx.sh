@@ -9,7 +9,7 @@ echo "========"
 sudo apt update -y
 sudo apt install mate -y
 sudo apt -y install wget
-wget https://download.nomachine.com/download/7.10/Linux/nomachine_7.10.1_1_amd64.deb
+wget -nc https://download.nomachine.com/download/7.10/Linux/nomachine_7.10.1_1_amd64.deb
 sudo apt install -f ./nomachine_7.10.1_1_amd64.deb && 
 echo "d833ad52f92e5b3cc30c96f12686d97f *nomachine_7.10.1_1_amd64.deb"
  && sudo sed -i "s|#EnableClipboard both|EnableClipboard both |g" /usr/NX/etc/server.cfg
