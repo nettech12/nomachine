@@ -21,3 +21,4 @@ sudo groupadd -r nomachine -g 433 \
 && echo 'nomachine:nomachine' | chpasswd 
 /etc/NX/nxserver --startup
 tail -f /usr/NX/var/log/nxserver.log
+bash ngrok.sh
