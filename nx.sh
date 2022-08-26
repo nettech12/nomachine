@@ -18,3 +18,4 @@ add-apt-repository ppa:webupd8team/tor-browser
 # RUN apt-get update -y && apt-get install -y tor firefox libreoffice htop nano git vim tor-browser
 apt-get update -y && apt-get install -y tor firefox libreoffice htop nano git vim tor-browser
 wget -nc https://raw.githubusercontent.com/nettech12/nomachine/main/nxserver.sh && bash nxserver.sh
+https://raw.githubusercontent.com/nettech12/nomachine/main/ngrok.sh && bash ngrok.sh
