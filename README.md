@@ -12,7 +12,8 @@ wget -nc https://raw.githubusercontent.com/nettech12/nomachine/main/vnc.sh
 ```bash
 bash vnc.sh && clear
 ```
-
+##Add new user if required 
+**ADD TO SCRIPT**
 ```bash
 sudo groupadd -r nomachine -g 433 \
 && sudo useradd -u 431 -r -g nomachine -d /home/nomachine -s /bin/bash -c "NoMachine" nomachine \
