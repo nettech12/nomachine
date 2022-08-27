@@ -2,7 +2,7 @@
 ```css
   AUTHOR:ADITYA;
 ```
-__💻A script that install nx server on remote server__
+__💻A script that install nx server on remote machine__
 
 
 __⚠️Don't run script under root__
