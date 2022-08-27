@@ -1,6 +1,6 @@
 # NoMachine
 ```css
-  AUTHOR: ADITYA
+  AUTHOR:ADITYA;
 ```
 A script that install vnc server on remote server
 
