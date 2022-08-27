@@ -25,4 +25,3 @@ bash vnc.sh && clear
 ```diff
 + SUBSCRIBE ON YOUTUBE
 ```
-![Red text](https://youtube.com/channel/UCmuYsnSIpiYd1L5pkqsTMlQ)
