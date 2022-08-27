@@ -4,7 +4,7 @@
 ```
 __💻 A script that install nx server on remote machine__
 
-__⚠️ Don't run script under root__
+__⚠️ run script in super user for good working __
 
 ## 💽 10gb free disk required 
 ```bash
