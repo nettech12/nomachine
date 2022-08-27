@@ -4,9 +4,13 @@
 ```
 A script that install vnc server on remote server
 
-```sh
+```bash
 wget -nc https://raw.githubusercontent.com/nettech12/nomachine/main/vnc.sh
 ```
+```bash
+bash vnc.sh && clear
+```
+
 
 ## nomachine support
 - linux
