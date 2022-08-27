@@ -15,9 +15,9 @@ bash vnc.sh && clear
 
 
 ## nomachine support
-- linux
-- windows
-- android
+- linux[✅]
+- windows[❌]
+- android[❌]
 
 
 ## Donate xmr
