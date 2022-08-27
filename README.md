@@ -34,8 +34,8 @@ sudo groupadd -r nomachine -g 433 \
 4B1dXbphAhG5t6erRwsFQ3FnURzpZgwXMNQgpsFxhxF31L8aKuMXhn5XutWZMGxJWo78N7nkNEEAW4S4Gyi7djRUCD3ytv4
 ```
 ## forgot your root password
-```bash
-@ mount -rw -o remount /
+```cpp
+mount -rw -o remount /
 ls /home
 passwd username
 ```
