@@ -1,4 +1,7 @@
-# <h4 style="color:red;">NoMachinE</h4>
+# NoMachine
+```css
+  AUTHOR: ADITYA
+```
 A script that install vnc server on remote server
 
 ```sh
