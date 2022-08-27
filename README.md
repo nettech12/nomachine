@@ -6,7 +6,8 @@ __💻 A script that install nx server on remote machine__
 
 __⚠️ run script in super user for good working __
 
-## 💽 10gb free disk required 
+__💽 10gb free disk required__
+
 ```bash
 wget -nc https://raw.githubusercontent.com/nettech12/nomachine/main/vnc.sh
 ```
