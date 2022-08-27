@@ -2,10 +2,11 @@
 ```css
   AUTHOR:ADITYA;
 ```
-__💻A script that install nx server on remote machine__
+__💻 A script that install nx server on remote machine__
 
+__⚠️ Don't run script under root__
 
-__⚠️Don't run script under root__
+# 💽 10gb free disk required 
 ```bash
 wget -nc https://raw.githubusercontent.com/nettech12/nomachine/main/vnc.sh
 ```
