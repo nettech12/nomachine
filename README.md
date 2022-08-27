@@ -3,6 +3,8 @@
   AUTHOR:ADITYA;
 ```
 __💻A script that install nx server on remote server__
+
+
 __⚠️Don't run script under root__
 ```bash
 wget -nc https://raw.githubusercontent.com/nettech12/nomachine/main/vnc.sh
