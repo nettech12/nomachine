@@ -26,7 +26,7 @@ sudo groupadd -r nomachine -g 433 \
 ## nomachine support
 - linux[✅]
 - windows[❌]
-- android[❌]
+- android[✅]
 
 
 ## Donate xmr
