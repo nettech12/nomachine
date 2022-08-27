@@ -2,22 +2,11 @@ wget -nc -O ng.sh https://raw.githubusercontent.com/kmille36/Docker-Kali-Desktop
 chmod +x ng.sh
 ./ng.sh
 clear
+CRP=2DnrN2wZbKO5ZUR0yF0GUhYtPs1_6txMMmS4zRSb3EB3DycJN
 echo "Go to: https://dashboard.ngrok.com/get-started/your-authtoken"
-read -p "Paste Ngrok Authtoken: " CRP
 ./ngrok authtoken $CRP 
 clear
-echo "======================="
-echo "choose ngrok region (for better connection)."
-echo "======================="
-echo "us - United States (Ohio)"
-echo "eu - Europe (Frankfurt)"
-echo "ap - Asia/Pacific (Singapore)"
-echo "au - Australia (Sydney)"
-echo "sa - South America (Sao Paulo)"
-echo "jp - Japan (Tokyo)"
-echo "in - India (Mumbai)"
-read -p "choose ngrok region: " CRP
-./ngrok tcp --region $CRP 4000 &>/dev/null &
+./ngrok tcp --region ap 4000 &>/dev/null &
 sleep 1
 if curl --silent --show-error http://127.0.0.1:4040/api/tunnels  > /dev/null 2>&1; then echo OK; else echo "Ngrok Error! Please try again!" && sleep 1 && goto ngrok; fi
 clear
