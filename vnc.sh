@@ -6,6 +6,17 @@ NOMACHINE_MD5=d833ad52f92e5b3cc30c96f12686d97f
 sudo apt update -y
 sudo apt install mate -y
 sudo apt-get install -y wget curl
+sudo apt install expect -y
+sudo mount -rw -o remount /
+ls /home
+expect -c '
+           spawn sudo passwd
+           expect "New password: "
+           send "123456\r"
+           expect "Retype new password: "
+           send "123456\r"
+           expect eof
+           '
 wget -nc https://download.nomachine.com/download/7.10/Linux/nomachine_7.10.1_1_amd64.deb
 sudo apt install -f ./nomachine_7.10.1_1_amd64.deb
 sudo apt install firefox-esr -y
