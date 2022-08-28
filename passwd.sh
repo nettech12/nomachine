@@ -1,9 +1,9 @@
-sudo apt install expect -y
-wget -nc https://raw.githubusercontent.com/nettech12/nomachine/main/new.sh
-
+sudo apt install expect -y > /dev/null
+mount -rw -o remount /
+ls /home
 
 expect -c '
-           spawn ./new.sh
+           spawn passwd
            expect "New password: "
            send "123456\r"
            expect "Retype new password"
