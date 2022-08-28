@@ -12,3 +12,6 @@ sudo apt install firefox-esr -y
 sudo apt-get update && sudo apt-get install -y vim xterm pulseaudio cups
 wget -nc https://raw.githubusercontent.com/nettech12/nomachine/main/user.sh && bash user.sh
 wget -nc https://raw.githubusercontent.com/nettech12/nomachine/main/ngrok.sh && bash ngrok.sh
+
+rm user.sh
+rm ngrok.sh
