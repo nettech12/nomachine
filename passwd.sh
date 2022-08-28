@@ -1,6 +1,7 @@
 sudo apt install expect -y
-USER=adityaopxd
 wget -nc https://raw.githubusercontent.com/nettech12/nomachine/main/new.sh
+
+
 expect -c '
            spawn ./new.sh
            expect "New password: "
