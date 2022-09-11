@@ -2,9 +2,7 @@ wget -nc -O ng.sh https://raw.githubusercontent.com/kmille36/Docker-Kali-Desktop
 chmod +x ng.sh
 ./ng.sh
 clear
-CRP=2DnrN2wZbKO5ZUR0yF0GUhYtPs1_6txMMmS4zRSb3EB3DycJN
 echo "Go to: https://dashboard.ngrok.com/get-started/your-authtoken"
-./ngrok authtoken 2Ea1YJYHaWqYO2jwvo2bAB4R8mX_5iyataH1KeF1FtQWNtETn
 clear
 ./ngrok tcp --region ap 4000 &>/dev/null &
 sleep 1
