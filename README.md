@@ -5,6 +5,7 @@
 __💻 A script that install nx server on remote machine__
 
 __💽 10gb free disk required__
+change your ngrok token in ngrok.sh
 
 ```bash
 
