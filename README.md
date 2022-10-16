@@ -25,7 +25,7 @@ sudo groupadd -r nomachine -g 433 \
 && sudo echo 'nomachine:nomachine' | sudo chpasswd 
 ```
 
-## nomachine support
+## nomachine script support
 - linux[✅]
 - windows[❌]
 - android[✅]
